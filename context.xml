@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vdex:vdex xmlns:vdex="http://www.imsglobal.org/xsd/imsvdex_v1p0" xmlns:zt="http://zthes.z3950.org/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:psys="http://proton.semanticweb.org/protonsys#" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:pext="http://proton.semanticweb.org/protonext#" xmlns:zthes="http://zthes.z3950.org/" xmlns:bk="http://purl.edustandaard.nl/begrippenkader/" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xsi:schemaLocation="http://www.imsglobal.org/xsd/imsvdex_v1p0 http://www.imsglobal.org/xsd/imsvdex_v1p0.xsd http://zthes.z3950.org/ http://www.k-int.com/schema/zthes-1.2.xsd http://purl.org/dc/elements/1.1/ http://dublincore.org/schemas/xmls/qdc/2008/02/11/dc.xsd" orderSignificant="true" profileType="flatTokenTerms">
+  <vdex:vocabName>
+    <vdex:langstring language="nl">Context</vdex:langstring>
+    <vdex:langstring language="en">Context</vdex:langstring>
+  </vdex:vocabName>
+  <vdex:vocabIdentifier>context-knset2012.10</vdex:vocabIdentifier>
+  <vdex:term orderSignificant="false" validIndex="true">
+    <vdex:termIdentifier>SBaO</vdex:termIdentifier>
+    <vdex:caption>
+      <vdex:langstring language="nl">SBaO</vdex:langstring>
+    </vdex:caption>
+    <vdex:description>
+      <vdex:langstring language="nl">speciaal basisonderwijs</vdex:langstring>
+    </vdex:description>
+  </vdex:term>
+  <vdex:term orderSignificant="false" validIndex="true">
+    <vdex:termIdentifier>SO</vdex:termIdentifier>
+    <vdex:caption>
+      <vdex:langstring language="nl">SO</vdex:langstring>
+    </vdex:caption>
+    <vdex:description>
+      <vdex:langstring language="nl">speciaal onderwijs</vdex:langstring>
+    </vdex:description>
+  </vdex:term>
+  <vdex:term orderSignificant="false" validIndex="true">
+    <vdex:termIdentifier>VVE</vdex:termIdentifier>
+    <vdex:caption>
+      <vdex:langstring language="nl">VVE</vdex:langstring>
+    </vdex:caption>
+    <vdex:description>
+      <vdex:langstring language="nl">voor- en vroegschoolse educatie</vdex:langstring>
+    </vdex:description>
+  </vdex:term>
+  <vdex:term orderSignificant="false" validIndex="true">
+    <vdex:termIdentifier>PO</vdex:termIdentifier>
+    <vdex:caption>
+      <vdex:langstring language="nl">PO</vdex:langstring>
+    </vdex:caption>
+    <vdex:description>
+      <vdex:langstring language="nl">primair onderwijs</vdex:langstring>
+    </vdex:description>
+  </vdex:term>
+  <vdex:term orderSignificant="false" validIndex="true">
+    <vdex:termIdentifier>VO</vdex:termIdentifier>
+    <vdex:caption>
+      <vdex:langstring language="nl">VO</vdex:langstring>
+    </vdex:caption>
+    <vdex:description>
+      <vdex:langstring language="nl">voortgezet onderwijs</vdex:langstring>
+    </vdex:description>
+  </vdex:term>
+  <vdex:term orderSignificant="false" validIndex="true">
+    <vdex:termIdentifier>BVE</vdex:termIdentifier>
+    <vdex:caption>
+      <vdex:langstring language="nl">BVE</vdex:langstring>
+    </vdex:caption>
+    <vdex:description>
+      <vdex:langstring language="nl">beroepsonderwijs en volwasseneneducatie</vdex:langstring>
+    </vdex:description>
+  </vdex:term>
+  <vdex:term orderSignificant="false" validIndex="true">
+    <vdex:termIdentifier>HBO</vdex:termIdentifier>
+    <vdex:caption>
+      <vdex:langstring language="nl">HBO</vdex:langstring>
+    </vdex:caption>
+    <vdex:description>
+      <vdex:langstring language="nl">hoger beroepsonderwijs</vdex:langstring>
+    </vdex:description>
+  </vdex:term>
+  <vdex:term orderSignificant="false" validIndex="true">
+    <vdex:termIdentifier>WO</vdex:termIdentifier>
+    <vdex:caption>
+      <vdex:langstring language="nl">WO</vdex:langstring>
+    </vdex:caption>
+    <vdex:description>
+      <vdex:langstring language="nl">wetenschappelijk onderwijs</vdex:langstring>
+    </vdex:description>
+  </vdex:term>
+  <vdex:term orderSignificant="false" validIndex="true">
+    <vdex:termIdentifier>bedrijfsopleiding</vdex:termIdentifier>
+    <vdex:caption>
+      <vdex:langstring language="nl">bedrijfsopleiding</vdex:langstring>
+    </vdex:caption>
+    <vdex:description>
+      <vdex:langstring language="nl">diverse bedrijfsopleidingen en cursussen</vdex:langstring>
+    </vdex:description>
+  </vdex:term>
+  <!-- SBaO -->
+  <vdex:relationship>
+    <vdex:sourceTerm vocabularyIdentifier="http://purl.edustandaard.nl/vdex_context_czp_20060628.xml">SBaO</vdex:sourceTerm>
+    <vdex:targetTerm vocabularyIdentifier="http://purl.edustandaard.nl/begrippenkader/">e05b5eb1-6a65-4f45-9556-79b25cd91da8</vdex:targetTerm>
+    <vdex:relationshipType source="http://purl.edustandaard.nl/begrippenkader/">heeftBkNiveau</vdex:relationshipType>
+  </vdex:relationship>
+  <vdex:relationship>
+    <vdex:sourceTerm vocabularyIdentifier="http://purl.edustandaard.nl/begrippenkader/">e05b5eb1-6a65-4f45-9556-79b25cd91da8</vdex:sourceTerm>
+    <vdex:targetTerm vocabularyIdentifier="http://purl.edustandaard.nl/vdex_context_czp_20060628.xml">SBaO</vdex:targetTerm>
+    <vdex:relationshipType source="http://purl.edustandaard.nl/begrippenkader/">isBkNiveauVan</vdex:relationshipType>
+  </vdex:relationship>
+  <!-- SO -->
+  <vdex:relationship>
+    <vdex:sourceTerm vocabularyIdentifier="http://purl.edustandaard.nl/vdex_context_czp_20060628.xml">SO</vdex:sourceTerm>
+    <vdex:targetTerm vocabularyIdentifier="http://purl.edustandaard.nl/begrippenkader/">e7f1c08f-08fb-48ab-be8e-c131b1bce54a</vdex:targetTerm>
+    <vdex:relationshipType source="http://purl.edustandaard.nl/begrippenkader/">heeftBkNiveau</vdex:relationshipType>
+  </vdex:relationship>
+  <vdex:relationship>
+    <vdex:sourceTerm vocabularyIdentifier="http://purl.edustandaard.nl/begrippenkader/">e7f1c08f-08fb-48ab-be8e-c131b1bce54a</vdex:sourceTerm>
+    <vdex:targetTerm vocabularyIdentifier="http://purl.edustandaard.nl/vdex_context_czp_20060628.xml">SO</vdex:targetTerm>
+    <vdex:relationshipType source="http://purl.edustandaard.nl/begrippenkader/">isBkNiveauVan</vdex:relationshipType>
+  </vdex:relationship>
+  <!-- VVE Voor en vroegschoolse educatie-->
+  <vdex:relationship>
+    <vdex:sourceTerm vocabularyIdentifier="http://purl.edustandaard.nl/vdex_context_czp_20060628.xml">VVE</vdex:sourceTerm>
+    <vdex:targetTerm vocabularyIdentifier="http://purl.edustandaard.nl/begrippenkader/">15d693b8-fbe1-4112-8135-4a20aba5101c</vdex:targetTerm>
+    <vdex:relationshipType source="http://purl.edustandaard.nl/begrippenkader/">heeftBkNiveau</vdex:relationshipType>
+  </vdex:relationship>
+  <vdex:relationship>
+    <vdex:sourceTerm vocabularyIdentifier="http://purl.edustandaard.nl/begrippenkader/">15d693b8-fbe1-4112-8135-4a20aba5101c</vdex:sourceTerm>
+    <vdex:targetTerm vocabularyIdentifier="http://purl.edustandaard.nl/vdex_context_czp_20060628.xml">VVE</vdex:targetTerm>
+    <vdex:relationshipType source="http://purl.edustandaard.nl/begrippenkader/">isBkNiveauVan</vdex:relationshipType>
+  </vdex:relationship>
+  <!-- PO-->
+  <vdex:relationship>
+    <vdex:sourceTerm vocabularyIdentifier="http://purl.edustandaard.nl/vdex_context_czp_20060628.xml">PO</vdex:sourceTerm>
+    <vdex:targetTerm vocabularyIdentifier="http://purl.edustandaard.nl/begrippenkader/">512e4729-03a4-43a2-95ba-758071d1b725</vdex:targetTerm>
+    <vdex:relationshipType source="http://purl.edustandaard.nl/begrippenkader/">heeftBkNiveau</vdex:relationshipType>
+  </vdex:relationship>
+  <vdex:relationship>
+    <vdex:sourceTerm vocabularyIdentifier="http://purl.edustandaard.nl/begrippenkader/">512e4729-03a4-43a2-95ba-758071d1b725</vdex:sourceTerm>
+    <vdex:targetTerm vocabularyIdentifier="http://purl.edustandaard.nl/vdex_context_czp_20060628.xml">PO</vdex:targetTerm>
+    <vdex:relationshipType source="http://purl.edustandaard.nl/begrippenkader/">isBkNiveauVan</vdex:relationshipType>
+  </vdex:relationship>
+  <!-- VO-->
+  <vdex:relationship>
+    <vdex:sourceTerm vocabularyIdentifier="http://purl.edustandaard.nl/vdex_context_czp_20060628.xml">VO</vdex:sourceTerm>
+    <vdex:targetTerm vocabularyIdentifier="http://purl.edustandaard.nl/begrippenkader/">2a1401e9-c223-493b-9b86-78f6993b1a8d</vdex:targetTerm>
+    <vdex:relationshipType source="http://purl.edustandaard.nl/begrippenkader/">heeftBkNiveau</vdex:relationshipType>
+  </vdex:relationship>
+  <vdex:relationship>
+    <vdex:sourceTerm vocabularyIdentifier="http://purl.edustandaard.nl/begrippenkader/">2a1401e9-c223-493b-9b86-78f6993b1a8d</vdex:sourceTerm>
+    <vdex:targetTerm vocabularyIdentifier="http://purl.edustandaard.nl/vdex_context_czp_20060628.xml">VO</vdex:targetTerm>
+    <vdex:relationshipType source="http://purl.edustandaard.nl/begrippenkader/">isBkNiveauVan</vdex:relationshipType>
+  </vdex:relationship>
+  <!-- BVE-->
+  <vdex:relationship>
+    <vdex:sourceTerm vocabularyIdentifier="http://purl.edustandaard.nl/vdex_context_czp_20060628.xml">BVE</vdex:sourceTerm>
+    <vdex:targetTerm vocabularyIdentifier="http://purl.edustandaard.nl/begrippenkader/">caa97efc-a713-41ea-a845-1534ca65eac9</vdex:targetTerm>
+    <vdex:relationshipType source="http://purl.edustandaard.nl/begrippenkader/">heeftBkNiveau</vdex:relationshipType>
+  </vdex:relationship>
+  <vdex:relationship>
+    <vdex:sourceTerm vocabularyIdentifier="http://purl.edustandaard.nl/begrippenkader/">caa97efc-a713-41ea-a845-1534ca65eac9</vdex:sourceTerm>
+    <vdex:targetTerm vocabularyIdentifier="http://purl.edustandaard.nl/vdex_context_czp_20060628.xml">BVE</vdex:targetTerm>
+    <vdex:relationshipType source="http://purl.edustandaard.nl/begrippenkader/">isBkNiveauVan</vdex:relationshipType>
+  </vdex:relationship>
+  <!-- HBO-->
+  <vdex:relationship>
+    <vdex:sourceTerm vocabularyIdentifier="http://purl.edustandaard.nl/vdex_context_czp_20060628.xml">HBO</vdex:sourceTerm>
+    <vdex:targetTerm vocabularyIdentifier="http://purl.edustandaard.nl/begrippenkader/">be140797-803f-4b9e-81cc-5572c711e09c</vdex:targetTerm>
+    <vdex:relationshipType source="http://purl.edustandaard.nl/begrippenkader/">heeftBkNiveau</vdex:relationshipType>
+  </vdex:relationship>
+  <vdex:relationship>
+    <vdex:sourceTerm vocabularyIdentifier="http://purl.edustandaard.nl/begrippenkader/">be140797-803f-4b9e-81cc-5572c711e09c</vdex:sourceTerm>
+    <vdex:targetTerm vocabularyIdentifier="http://purl.edustandaard.nl/vdex_context_czp_20060628.xml">HBO</vdex:targetTerm>
+    <vdex:relationshipType source="http://purl.edustandaard.nl/begrippenkader/">isBkNiveauVan</vdex:relationshipType>
+  </vdex:relationship>
+  <!-- WO-->
+  <vdex:relationship>
+    <vdex:sourceTerm vocabularyIdentifier="http://purl.edustandaard.nl/vdex_context_czp_20060628.xml">WO</vdex:sourceTerm>
+    <vdex:targetTerm vocabularyIdentifier="http://purl.edustandaard.nl/begrippenkader/">bbbd99c6-cf49-4980-baed-12388f8dcff4</vdex:targetTerm>
+    <vdex:relationshipType source="http://purl.edustandaard.nl/begrippenkader/">heeftBkNiveau</vdex:relationshipType>
+  </vdex:relationship>
+  <vdex:relationship>
+    <vdex:sourceTerm vocabularyIdentifier="http://purl.edustandaard.nl/begrippenkader/">bbbd99c6-cf49-4980-baed-12388f8dcff4</vdex:sourceTerm>
+    <vdex:targetTerm vocabularyIdentifier="http://purl.edustandaard.nl/vdex_context_czp_20060628.xml">WO</vdex:targetTerm>
+    <vdex:relationshipType source="http://purl.edustandaard.nl/begrippenkader/">isBkNiveauVan</vdex:relationshipType>
+  </vdex:relationship>
+  <!-- bedrijfsopleiding-->
+  <vdex:relationship>
+    <vdex:sourceTerm vocabularyIdentifier="http://purl.edustandaard.nl/vdex_context_czp_20060628.xml">bedrijfsopleiding</vdex:sourceTerm>
+    <vdex:targetTerm vocabularyIdentifier="http://purl.edustandaard.nl/begrippenkader/">a3c394bc-44a2-4afe-b7b4-044633b84121</vdex:targetTerm>
+    <vdex:relationshipType source="http://purl.edustandaard.nl/begrippenkader/">heeftBkNiveau</vdex:relationshipType>
+  </vdex:relationship>
+  <vdex:relationship>
+    <vdex:sourceTerm vocabularyIdentifier="http://purl.edustandaard.nl/begrippenkader/">a3c394bc-44a2-4afe-b7b4-044633b84121</vdex:sourceTerm>
+    <vdex:targetTerm vocabularyIdentifier="http://purl.edustandaard.nl/vdex_context_czp_20060628.xml">bedrijfsopleiding</vdex:targetTerm>
+    <vdex:relationshipType source="http://purl.edustandaard.nl/begrippenkader/">isBkNiveauVan</vdex:relationshipType>
+  </vdex:relationship>
+  <vdex:metadata>
+    <dc:description xml:lang="nl">Een subset uit het begrippenkader inclusief een subset van relaties met andere begrippen. Commentaar over deze vocabulaire indienen bij Bureau EduStandaard via info at edustandaard.nl Dit is een test vocabulaire die alleen ter informatie wordt gepubliceerd; d.w.z. dat gebruik geheel voor eigen risico is.
+            </dc:description>
+    <zt:thesNote label="usedIn">n.v.t.</zt:thesNote>
+    <zt:thesNote label="LOM-veld">n.v.t.</zt:thesNote>
+    <zt:thesNote label="Beheerstatus" vocab="knet-ps-0001" identifier="aangemeld">Test</zt:thesNote>
+    <zt:thesNote label="eerste publicatie in">2012</zt:thesNote>
+    <zt:thesNote label="authority">EduStandaard</zt:thesNote>
+    <dc:source>De verwijzing naar deze vocabulaire is: http://purl.edustandaard.nl/begrippenkader/</dc:source>
+    <zt:thesNote label="modified">2012-07-03</zt:thesNote>
+    <zt:thesNote label="historyNote">Wijzigingen worden nog niet vastgelegd omdat deze vocabulaire in status "Test" staat.</zt:thesNote>
+  </vdex:metadata>
+</vdex:vdex>
