@@ -4,7 +4,7 @@
     <vdex:langstring language="x-none">Hoofdindeling SO en SBO Leerlingkenmerken</vdex:langstring>
     <vdex:langstring language="nl">Hoofdindeling SO en SBO Leerlingkenmerken</vdex:langstring>
   </vdex:vocabName>
-  <vdex:vocabIdentifier>hoofdindeling_so_en_sbo_leerlingkenmerken-knset2012.10</vdex:vocabIdentifier>
+  <vdex:vocabIdentifier>hoofdindeling_so_en_sbo_leerlingkenmerken</vdex:vocabIdentifier>
   <vdex:term orderSignificant="false" validIndex="true">
     <vdex:termIdentifier>42937580-e88f-4784-9020-c60e5090e7ad</vdex:termIdentifier>
     <vdex:caption>

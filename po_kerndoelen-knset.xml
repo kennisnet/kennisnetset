@@ -4,7 +4,7 @@
     <vdex:langstring language="x-none">PO Kerndoelen</vdex:langstring>
     <vdex:langstring language="nl">PO Kerndoelen</vdex:langstring>
   </vdex:vocabName>
-  <vdex:vocabIdentifier>po_kerndoelen-knset2012.10</vdex:vocabIdentifier>
+  <vdex:vocabIdentifier>po_kerndoelen</vdex:vocabIdentifier>
   <vdex:term orderSignificant="false" validIndex="true">
     <vdex:termIdentifier>8cd7169b-ec2b-4b1a-bc35-e2d2ac49e902</vdex:termIdentifier>
     <vdex:caption>

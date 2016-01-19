@@ -4,7 +4,7 @@
     <vdex:langstring language="x-none">Vaardigheden DLM</vdex:langstring>
     <vdex:langstring language="nl">Vaardigheden DLM</vdex:langstring>
   </vdex:vocabName>
-  <vdex:vocabIdentifier>vaardigheden_dlm-knset2012.10</vdex:vocabIdentifier>
+  <vdex:vocabIdentifier>vaardigheden_dlm</vdex:vocabIdentifier>
   <vdex:term orderSignificant="false" validIndex="true">
     <vdex:termIdentifier>735cfbf4-64c8-46b9-8a76-0a2cc8a50d6e</vdex:termIdentifier>
     <vdex:caption>

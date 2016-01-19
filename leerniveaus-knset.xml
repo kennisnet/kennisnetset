@@ -4,7 +4,7 @@
     <vdex:langstring language="x-none">Leerniveaus</vdex:langstring>
     <vdex:langstring language="nl">Leerniveaus</vdex:langstring>
   </vdex:vocabName>
-  <vdex:vocabIdentifier>leerniveaus-knset2012.10</vdex:vocabIdentifier>
+  <vdex:vocabIdentifier>leerniveaus</vdex:vocabIdentifier>
   <vdex:term orderSignificant="true" validIndex="true">
     <vdex:termIdentifier>15d693b8-fbe1-4112-8135-4a20aba5101c</vdex:termIdentifier>
     <vdex:caption>
@@ -506,7 +506,7 @@
       <dc:source>http://purl.edustandaard.nl/begrippenkader/</dc:source>
     </vdex:metadata>
   </vdex:term>
-  <vdex:term orderSignificant="true" validIndex="true">
+  <vdex:term orderSignificant="true" validIndex="false">
     <vdex:termIdentifier>be140797-803f-4b9e-81cc-5572c711e09c</vdex:termIdentifier>
     <vdex:caption>
       <vdex:langstring language="nl">Hoger beroepsonderwijs</vdex:langstring>
@@ -519,12 +519,60 @@
     </vdex:metadata>
   </vdex:term>
   <vdex:term orderSignificant="true" validIndex="true">
+    <vdex:termIdentifier>f33b30ee-3c82-4ead-bc20-4255be9ece2d</vdex:termIdentifier>
+    <vdex:caption>
+      <vdex:langstring language="nl">HBO - Bachelor</vdex:langstring>
+    </vdex:caption>
+    <vdex:description>
+      <vdex:langstring language="nl">De eerste 4 jaren van een studie op hbo-niveau.</vdex:langstring>
+    </vdex:description>
+    <vdex:metadata>
+      <dc:source>http://purl.edustandaard.nl/begrippenkader/</dc:source>
+    </vdex:metadata>
+  </vdex:term>
+  <vdex:term orderSignificant="true" validIndex="true">
+    <vdex:termIdentifier>de952b8b-efa5-4395-92c0-193812130c67</vdex:termIdentifier>
+    <vdex:caption>
+      <vdex:langstring language="nl">HBO - Master</vdex:langstring>
+    </vdex:caption>
+    <vdex:description>
+      <vdex:langstring language="nl">Het 5e jaar van een studie op hbo-niveau.</vdex:langstring>
+    </vdex:description>
+    <vdex:metadata>
+      <dc:source>http://purl.edustandaard.nl/begrippenkader/</dc:source>
+    </vdex:metadata>
+  </vdex:term>
+  <vdex:term orderSignificant="true" validIndex="false">
     <vdex:termIdentifier>bbbd99c6-cf49-4980-baed-12388f8dcff4</vdex:termIdentifier>
     <vdex:caption>
       <vdex:langstring language="nl">Wetenschappelijk onderwijs</vdex:langstring>
     </vdex:caption>
     <vdex:description>
       <vdex:langstring language="nl">Het wetenschappelijk onderwijs (wo) biedt onderwijsprogrammas aan met als voornaamste doel hetzelfstandig beoefenen van de wetenschap of de beroepsmatige toepassing van wetenschappelijke kennis. Het wo wordt door universiteiten verzorgd, maar onder de nieuwe bachelor/master(bama)-structuur wordt de mogelijkheid gecreëerd het ook door hogescholen te laten aanbieden. Volgens de nieuwe bama-structuur worden studieprogrammas verdeeld in een bacheloropleiding van 3 jaargevolgd door een masteropleiding van: 1 jaar (de meeste richtingen, 60 ECTS), 2 jaar(technische en natuurwetenschappelijke richtingen, tandartsopleiding, 120 ECTS) of 3 jaar((dier)geneeskunde, apothekersopleiding, 180 ECTS).</vdex:langstring>
+    </vdex:description>
+    <vdex:metadata>
+      <dc:source>http://purl.edustandaard.nl/begrippenkader/</dc:source>
+    </vdex:metadata>
+  </vdex:term>
+  <vdex:term orderSignificant="true" validIndex="true">
+    <vdex:termIdentifier>18656a7c-95a5-4831-8085-020d3151aceb</vdex:termIdentifier>
+    <vdex:caption>
+      <vdex:langstring language="nl">WO - Bachelor</vdex:langstring>
+    </vdex:caption>
+    <vdex:description>
+      <vdex:langstring language="nl">De eerste 3 jaren van een studie op wo-niveau.</vdex:langstring>
+    </vdex:description>
+    <vdex:metadata>
+      <dc:source>http://purl.edustandaard.nl/begrippenkader/</dc:source>
+    </vdex:metadata>
+  </vdex:term>
+  <vdex:term orderSignificant="true" validIndex="true">
+    <vdex:termIdentifier>2998f2e0-449d-4911-86a2-f4cbf1a20b56</vdex:termIdentifier>
+    <vdex:caption>
+      <vdex:langstring language="nl">WO - Master</vdex:langstring>
+    </vdex:caption>
+    <vdex:description>
+      <vdex:langstring language="nl">Het 4e jaar en bij sommige opleidingen 4e en 5e jaar van een studie op wo-niveau.</vdex:langstring>
     </vdex:description>
     <vdex:metadata>
       <dc:source>http://purl.edustandaard.nl/begrippenkader/</dc:source>
@@ -1632,6 +1680,86 @@
     <vdex:sourceTerm vocabularyIdentifier="http://purl.edustandaard.nl/begrippenkader/">e7f1c08f-08fb-48ab-be8e-c131b1bce54a</vdex:sourceTerm>
     <vdex:targetTerm vocabularyIdentifier="http://purl.edustandaard.nl/begrippenkader/">ac2cce10-02d8-46bc-9889-63c369a5b2aa</vdex:targetTerm>
     <vdex:relationshipType source="http://purl.edustandaard.nl/begrippenkader/">heeftBkType</vdex:relationshipType>
+  </vdex:relationship>
+  <vdex:relationship>
+    <vdex:sourceTerm vocabularyIdentifier="http://purl.edustandaard.nl/begrippenkader/">ac2cce10-02d8-46bc-9889-63c369a5b2aa</vdex:sourceTerm>
+    <vdex:targetTerm vocabularyIdentifier="http://purl.edustandaard.nl/begrippenkader/">f33b30ee-3c82-4ead-bc20-4255be9ece2d</vdex:targetTerm>
+    <vdex:relationshipType source="http://purl.edustandaard.nl/begrippenkader/">isBkTypeVan</vdex:relationshipType>
+  </vdex:relationship>
+  <vdex:relationship>
+    <vdex:sourceTerm vocabularyIdentifier="http://purl.edustandaard.nl/begrippenkader/">ac2cce10-02d8-46bc-9889-63c369a5b2aa</vdex:sourceTerm>
+    <vdex:targetTerm vocabularyIdentifier="http://purl.edustandaard.nl/begrippenkader/">de952b8b-efa5-4395-92c0-193812130c67</vdex:targetTerm>
+    <vdex:relationshipType source="http://purl.edustandaard.nl/begrippenkader/">isBkTypeVan</vdex:relationshipType>
+  </vdex:relationship>
+  <vdex:relationship>
+    <vdex:sourceTerm vocabularyIdentifier="http://purl.edustandaard.nl/begrippenkader/">ac2cce10-02d8-46bc-9889-63c369a5b2aa</vdex:sourceTerm>
+    <vdex:targetTerm vocabularyIdentifier="http://purl.edustandaard.nl/begrippenkader/">18656a7c-95a5-4831-8085-020d3151aceb</vdex:targetTerm>
+    <vdex:relationshipType source="http://purl.edustandaard.nl/begrippenkader/">isBkTypeVan</vdex:relationshipType>
+  </vdex:relationship>
+  <vdex:relationship>
+    <vdex:sourceTerm vocabularyIdentifier="http://purl.edustandaard.nl/begrippenkader/">ac2cce10-02d8-46bc-9889-63c369a5b2aa</vdex:sourceTerm>
+    <vdex:targetTerm vocabularyIdentifier="http://purl.edustandaard.nl/begrippenkader/">2998f2e0-449d-4911-86a2-f4cbf1a20b56</vdex:targetTerm>
+    <vdex:relationshipType source="http://purl.edustandaard.nl/begrippenkader/">isBkTypeVan</vdex:relationshipType>
+  </vdex:relationship>
+  <vdex:relationship>
+    <vdex:sourceTerm vocabularyIdentifier="http://purl.edustandaard.nl/begrippenkader/">f33b30ee-3c82-4ead-bc20-4255be9ece2d</vdex:sourceTerm>
+    <vdex:targetTerm vocabularyIdentifier="http://purl.edustandaard.nl/begrippenkader/">ac2cce10-02d8-46bc-9889-63c369a5b2aa</vdex:targetTerm>
+    <vdex:relationshipType source="http://purl.edustandaard.nl/begrippenkader/">heeftBkType</vdex:relationshipType>
+  </vdex:relationship>
+  <vdex:relationship>
+    <vdex:sourceTerm vocabularyIdentifier="http://purl.edustandaard.nl/begrippenkader/">de952b8b-efa5-4395-92c0-193812130c67</vdex:sourceTerm>
+    <vdex:targetTerm vocabularyIdentifier="http://purl.edustandaard.nl/begrippenkader/">ac2cce10-02d8-46bc-9889-63c369a5b2aa</vdex:targetTerm>
+    <vdex:relationshipType source="http://purl.edustandaard.nl/begrippenkader/">heeftBkType</vdex:relationshipType>
+  </vdex:relationship>
+  <vdex:relationship>
+    <vdex:sourceTerm vocabularyIdentifier="http://purl.edustandaard.nl/begrippenkader/">18656a7c-95a5-4831-8085-020d3151aceb</vdex:sourceTerm>
+    <vdex:targetTerm vocabularyIdentifier="http://purl.edustandaard.nl/begrippenkader/">ac2cce10-02d8-46bc-9889-63c369a5b2aa</vdex:targetTerm>
+    <vdex:relationshipType source="http://purl.edustandaard.nl/begrippenkader/">heeftBkType</vdex:relationshipType>
+  </vdex:relationship>
+  <vdex:relationship>
+    <vdex:sourceTerm vocabularyIdentifier="http://purl.edustandaard.nl/begrippenkader/">2998f2e0-449d-4911-86a2-f4cbf1a20b56</vdex:sourceTerm>
+    <vdex:targetTerm vocabularyIdentifier="http://purl.edustandaard.nl/begrippenkader/">ac2cce10-02d8-46bc-9889-63c369a5b2aa</vdex:targetTerm>
+    <vdex:relationshipType source="http://purl.edustandaard.nl/begrippenkader/">heeftBkType</vdex:relationshipType>
+  </vdex:relationship>
+  <vdex:relationship>
+    <vdex:sourceTerm vocabularyIdentifier="http://purl.edustandaard.nl/begrippenkader/">be140797-803f-4b9e-81cc-5572c711e09c</vdex:sourceTerm>
+    <vdex:targetTerm vocabularyIdentifier="http://purl.edustandaard.nl/begrippenkader/">f33b30ee-3c82-4ead-bc20-4255be9ece2d</vdex:targetTerm>
+    <vdex:relationshipType source="http://www.imsglobal.org/vocabularies/iso2788_relations.xml">NT</vdex:relationshipType>
+  </vdex:relationship>
+  <vdex:relationship>
+    <vdex:sourceTerm vocabularyIdentifier="http://purl.edustandaard.nl/begrippenkader/">be140797-803f-4b9e-81cc-5572c711e09c</vdex:sourceTerm>
+    <vdex:targetTerm vocabularyIdentifier="http://purl.edustandaard.nl/begrippenkader/">de952b8b-efa5-4395-92c0-193812130c67</vdex:targetTerm>
+    <vdex:relationshipType source="http://www.imsglobal.org/vocabularies/iso2788_relations.xml">NT</vdex:relationshipType>
+  </vdex:relationship>
+  <vdex:relationship>
+    <vdex:sourceTerm vocabularyIdentifier="http://purl.edustandaard.nl/begrippenkader/">bbbd99c6-cf49-4980-baed-12388f8dcff4</vdex:sourceTerm>
+    <vdex:targetTerm vocabularyIdentifier="http://purl.edustandaard.nl/begrippenkader/">18656a7c-95a5-4831-8085-020d3151aceb</vdex:targetTerm>
+    <vdex:relationshipType source="http://www.imsglobal.org/vocabularies/iso2788_relations.xml">NT</vdex:relationshipType>
+  </vdex:relationship>
+  <vdex:relationship>
+    <vdex:sourceTerm vocabularyIdentifier="http://purl.edustandaard.nl/begrippenkader/">bbbd99c6-cf49-4980-baed-12388f8dcff4</vdex:sourceTerm>
+    <vdex:targetTerm vocabularyIdentifier="http://purl.edustandaard.nl/begrippenkader/">2998f2e0-449d-4911-86a2-f4cbf1a20b56</vdex:targetTerm>
+    <vdex:relationshipType source="http://www.imsglobal.org/vocabularies/iso2788_relations.xml">NT</vdex:relationshipType>
+  </vdex:relationship>
+  <vdex:relationship>
+    <vdex:sourceTerm vocabularyIdentifier="http://purl.edustandaard.nl/begrippenkader/">f33b30ee-3c82-4ead-bc20-4255be9ece2d</vdex:sourceTerm>
+    <vdex:targetTerm vocabularyIdentifier="http://purl.edustandaard.nl/begrippenkader/">be140797-803f-4b9e-81cc-5572c711e09c</vdex:targetTerm>
+    <vdex:relationshipType source="http://www.imsglobal.org/vocabularies/iso2788_relations.xml">BT</vdex:relationshipType>
+  </vdex:relationship>
+  <vdex:relationship>
+    <vdex:sourceTerm vocabularyIdentifier="http://purl.edustandaard.nl/begrippenkader/">de952b8b-efa5-4395-92c0-193812130c67</vdex:sourceTerm>
+    <vdex:targetTerm vocabularyIdentifier="http://purl.edustandaard.nl/begrippenkader/">be140797-803f-4b9e-81cc-5572c711e09c</vdex:targetTerm>
+    <vdex:relationshipType source="http://www.imsglobal.org/vocabularies/iso2788_relations.xml">BT</vdex:relationshipType>
+  </vdex:relationship>
+  <vdex:relationship>
+    <vdex:sourceTerm vocabularyIdentifier="http://purl.edustandaard.nl/begrippenkader/">18656a7c-95a5-4831-8085-020d3151aceb</vdex:sourceTerm>
+    <vdex:targetTerm vocabularyIdentifier="http://purl.edustandaard.nl/begrippenkader/">bbbd99c6-cf49-4980-baed-12388f8dcff4</vdex:targetTerm>
+    <vdex:relationshipType source="http://www.imsglobal.org/vocabularies/iso2788_relations.xml">BT</vdex:relationshipType>
+  </vdex:relationship>
+  <vdex:relationship>
+    <vdex:sourceTerm vocabularyIdentifier="http://purl.edustandaard.nl/begrippenkader/">2998f2e0-449d-4911-86a2-f4cbf1a20b56</vdex:sourceTerm>
+    <vdex:targetTerm vocabularyIdentifier="http://purl.edustandaard.nl/begrippenkader/">bbbd99c6-cf49-4980-baed-12388f8dcff4</vdex:targetTerm>
+    <vdex:relationshipType source="http://www.imsglobal.org/vocabularies/iso2788_relations.xml">BT</vdex:relationshipType>
   </vdex:relationship>
   <vdex:metadata>
     <dc:description xml:lang="nl">Een subset uit het begrippenkader inclusief een subset van relaties met andere begrippen. Commentaar over deze vocabulaire indienen bij Bureau EduStandaard via info at edustandaard.nl Dit is een test vocabulaire die alleen ter informatie wordt gepubliceerd; d.w.z. dat gebruik geheel voor eigen risico is.
