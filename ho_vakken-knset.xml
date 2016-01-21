@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<vdex:vdex xmlns:vdex="http://www.imsglobal.org/xsd/imsvdex_v1p0" xmlns:zt="http://zthes.z3950.org/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.imsglobal.org/xsd/imsvdex_v1p0 http://www.imsglobal.org/xsd/imsvdex_v1p0.xsd http://zthes.z3950.org/ http://www.k-int.com/schema/zthes-1.2.xsd http://purl.org/dc/elements/1.1/ http://dublincore.org/schemas/xmls/qdc/2008/02/11/dc.xsd" orderSignificant="true" profileType="flatTokenTerms">
+<vdex:vdex xmlns:vdex="http://www.imsglobal.org/xsd/imsvdex_v1p0" xmlns:zt="http://zthes.z3950.org/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.imsglobal.org/xsd/imsvdex_v1p0 http://www.imsglobal.org/xsd/imsvdex_v1p0.xsd http://xsd.kennisnet.nl/zthes/ http://xsd.kennisnet.nl/zthes/zthes-1.2.xsd http://purl.org/dc/elements/1.1/ http://dublincore.org/schemas/xmls/qdc/2008/02/11/dc.xsd" orderSignificant="true" profileType="flatTokenTerms">
   <vdex:vocabName>
     <vdex:langstring language="x-none">HO Vakken</vdex:langstring>
     <vdex:langstring language="nl">HO Vakken</vdex:langstring>
@@ -4375,6 +4375,6 @@
     <dc:description xml:lang="nl">Een subset uit het begrippenkader inclusief een subset van relaties met andere begrippen. Commentaar over deze vocabulaire indienen bij Bureau EduStandaard via info at edustandaard.nl.</dc:description>
     <zt:thesNote label="authority">EduStandaard</zt:thesNote>
     <dc:source>De verwijzing naar deze vocabulaire is: http://purl.edustandaard.nl/begrippenkader/</dc:source>
-    <zt:thesNote label="modified">2015-02-02</zt:thesNote>
+    <zt:thesNote label="modified">2015-05-22</zt:thesNote>
   </vdex:metadata>
 </vdex:vdex>
