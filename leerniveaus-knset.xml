@@ -4,7 +4,7 @@
     <vdex:langstring language="x-none">Leerniveaus</vdex:langstring>
     <vdex:langstring language="nl">Leerniveaus</vdex:langstring>
   </vdex:vocabName>
-  <vdex:vocabIdentifier>Leerniveaus</vdex:vocabIdentifier>
+  <vdex:vocabIdentifier>leerniveaus</vdex:vocabIdentifier>
   <vdex:term orderSignificant="true" validIndex="true">
     <vdex:termIdentifier>caa97efc-a713-41ea-a845-1534ca65eac9</vdex:termIdentifier>
     <vdex:caption>
@@ -1393,6 +1393,6 @@
     <dc:description xml:lang="nl">Een subset uit het begrippenkader inclusief een subset van relaties met andere begrippen. Commentaar over deze vocabulaire indienen bij Bureau EduStandaard via info at edustandaard.nl.</dc:description>
     <zt:thesNote label="authority">EduStandaard</zt:thesNote>
     <dc:source>De verwijzing naar deze vocabulaire is: http://purl.edustandaard.nl/begrippenkader/</dc:source>
-    <zt:thesNote label="modified">2014-08-12</zt:thesNote>
+    <zt:thesNote label="modified">2015-02-02</zt:thesNote>
   </vdex:metadata>
 </vdex:vdex>
