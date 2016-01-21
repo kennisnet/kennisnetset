@@ -1,167 +1,65 @@
-<?xml version="1.0" encoding="utf-8"?>
-<vdex:vdex xmlns:vdex="http://www.imsglobal.org/xsd/imsvdex_v1p0" xmlns:zt="http://zthes.z3950.org/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:psys="http://proton.semanticweb.org/protonsys#" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:pext="http://proton.semanticweb.org/protonext#" xmlns:zthes="http://zthes.z3950.org/" xmlns:bk="http://purl.edustandaard.nl/begrippenkader/" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xsi:schemaLocation="http://www.imsglobal.org/xsd/imsvdex_v1p0 http://www.imsglobal.org/xsd/imsvdex_v1p0.xsd http://zthes.z3950.org/ http://www.k-int.com/schema/zthes-1.2.xsd http://purl.org/dc/elements/1.1/ http://dublincore.org/schemas/xmls/qdc/2008/02/11/dc.xsd" orderSignificant="true" profileType="flatTokenTerms">
+<?xml version="1.0" encoding="UTF-8"?>
+<vdex:vdex xmlns:vdex="http://www.imsglobal.org/xsd/imsvdex_v1p0" xmlns:zt="http://zthes.z3950.org/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.imsglobal.org/xsd/imsvdex_v1p0 http://www.imsglobal.org/xsd/imsvdex_v1p0.xsd http://zthes.z3950.org/ http://www.k-int.com/schema/zthes-1.2.xsd http://purl.org/dc/elements/1.1/ http://dublincore.org/schemas/xmls/qdc/2008/02/11/dc.xsd" orderSignificant="true" profileType="flatTokenTerms">
   <vdex:vocabName>
     <vdex:langstring language="x-none">referentiekader taal en rekenen</vdex:langstring>
     <vdex:langstring language="nl">referentiekader taal en rekenen</vdex:langstring>
   </vdex:vocabName>
   <vdex:vocabIdentifier>referentiekader_taal_en_rekenen</vdex:vocabIdentifier>
-  <vdex:term orderSignificant="false" validIndex="true">
-    <vdex:termIdentifier>d5f99b58-31be-4ffc-89f4-9d7c65526879</vdex:termIdentifier>
-    <vdex:caption>
-      <vdex:langstring language="nl">1F</vdex:langstring>
-    </vdex:caption>
-    <vdex:description>
-      <vdex:langstring language="nl">Fundamenteel niveau 1F, Voor het basis- en speciaal (basis)onderwijs geldt fundamenteel niveaus 1 F en streefniveau 1S. Voor praktijkonderwijs is alleen 1F vastgelegd</vdex:langstring>
-    </vdex:description>
-    <vdex:metadata>
-      <dc:source>http://purl.edustandaard.nl/begrippenkader/</dc:source>
-    </vdex:metadata>
-  </vdex:term>
-  <vdex:term orderSignificant="false" validIndex="true">
+  <vdex:term orderSignificant="true" validIndex="true">
     <vdex:termIdentifier>86d05d5a-8dfa-422b-820c-50019985426d</vdex:termIdentifier>
     <vdex:caption>
       <vdex:langstring language="nl">1S</vdex:langstring>
     </vdex:caption>
-    <vdex:description>
-      <vdex:langstring language="nl">Streefniveau 1S, Voor het basis- en speciaal (basis)onderwijs geldt fundamenteel niveaus 1 F en streefniveau 1S.</vdex:langstring>
-    </vdex:description>
     <vdex:metadata>
       <dc:source>http://purl.edustandaard.nl/begrippenkader/</dc:source>
     </vdex:metadata>
   </vdex:term>
-  <vdex:term orderSignificant="false" validIndex="true">
-    <vdex:termIdentifier>5eac0434-a6fc-4499-9710-3d6b800973a3</vdex:termIdentifier>
+  <vdex:term orderSignificant="true" validIndex="true">
+    <vdex:termIdentifier>d5f99b58-31be-4ffc-89f4-9d7c65526879</vdex:termIdentifier>
     <vdex:caption>
-      <vdex:langstring language="nl">2F</vdex:langstring>
+      <vdex:langstring language="nl">1F</vdex:langstring>
     </vdex:caption>
-    <vdex:description>
-      <vdex:langstring language="nl">Fundamenteel niveau 2F, Voor het vmbo, en mbo 1, 2 en 3 geldt niveau 2F (maar waar mogelijk kan doorgewerkt worden naar het volgende streefniveau)</vdex:langstring>
-    </vdex:description>
     <vdex:metadata>
       <dc:source>http://purl.edustandaard.nl/begrippenkader/</dc:source>
     </vdex:metadata>
   </vdex:term>
-  <vdex:term orderSignificant="false" validIndex="true">
-    <vdex:termIdentifier>fadc20aa-082e-4e80-8a83-830c4006f236</vdex:termIdentifier>
-    <vdex:caption>
-      <vdex:langstring language="nl">2S</vdex:langstring>
-    </vdex:caption>
-    <vdex:description>
-      <vdex:langstring language="nl">Streefniveau 2S, Voor het vmbo, en mbo 1, 2 en 3 geldt niveau 2F (maar waar mogelijk kan doorgewerkt worden naar het volgende streefniveau)</vdex:langstring>
-    </vdex:description>
-    <vdex:metadata>
-      <dc:source>http://purl.edustandaard.nl/begrippenkader/</dc:source>
-    </vdex:metadata>
-  </vdex:term>
-  <vdex:term orderSignificant="false" validIndex="true">
-    <vdex:termIdentifier>f1d56c9e-373a-4051-9ce9-81a01b812de7</vdex:termIdentifier>
-    <vdex:caption>
-      <vdex:langstring language="nl">3F</vdex:langstring>
-    </vdex:caption>
-    <vdex:description>
-      <vdex:langstring language="nl">Fundamenteel niveau 3F, Voor  taal voor havo en mbo 4 niveau; voor taal geldt in het vwo 4F (maar waar mogelijk kan doorgewerkt worden naar het volgende streefniveau). Voor rekenen voor havo, vwo en mbo 4</vdex:langstring>
-    </vdex:description>
-    <vdex:metadata>
-      <dc:source>http://purl.edustandaard.nl/begrippenkader/</dc:source>
-    </vdex:metadata>
-  </vdex:term>
-  <vdex:term orderSignificant="false" validIndex="true">
+  <vdex:term orderSignificant="true" validIndex="true">
     <vdex:termIdentifier>2be1fbb4-d46f-44f8-9aff-d2bbf5108a18</vdex:termIdentifier>
     <vdex:caption>
       <vdex:langstring language="nl">3S</vdex:langstring>
     </vdex:caption>
-    <vdex:description>
-      <vdex:langstring language="nl">Streefniveau 3S, Voor havo, vwo en mbo 4 niveau geldt 3F; voor taal geldt in het vwo 4F (maar waar mogelijk kan doorgewerkt worden naar het volgende streefniveau).</vdex:langstring>
-    </vdex:description>
     <vdex:metadata>
       <dc:source>http://purl.edustandaard.nl/begrippenkader/</dc:source>
     </vdex:metadata>
   </vdex:term>
-  <vdex:term orderSignificant="false" validIndex="true">
-    <vdex:termIdentifier>5ec6d733-a3b2-46db-9d42-72b4be4f7750</vdex:termIdentifier>
+  <vdex:term orderSignificant="true" validIndex="true">
+    <vdex:termIdentifier>f1d56c9e-373a-4051-9ce9-81a01b812de7</vdex:termIdentifier>
     <vdex:caption>
-      <vdex:langstring language="nl">4F</vdex:langstring>
+      <vdex:langstring language="nl">3F</vdex:langstring>
     </vdex:caption>
-    <vdex:description>
-      <vdex:langstring language="nl">Fundamenteel niveau 4F, Voor taal geldt in het vwo 4F (maar waar mogelijk kan doorgewerkt worden naar het volgende streefniveau).</vdex:langstring>
-    </vdex:description>
     <vdex:metadata>
       <dc:source>http://purl.edustandaard.nl/begrippenkader/</dc:source>
     </vdex:metadata>
   </vdex:term>
-  <vdex:term orderSignificant="false" validIndex="true">
-    <vdex:termIdentifier>7bae4f16-ed94-4739-9d42-d0842dee7c90</vdex:termIdentifier>
+  <vdex:term orderSignificant="true" validIndex="true">
+    <vdex:termIdentifier>fadc20aa-082e-4e80-8a83-830c4006f236</vdex:termIdentifier>
     <vdex:caption>
-      <vdex:langstring language="nl">4S</vdex:langstring>
+      <vdex:langstring language="nl">2S</vdex:langstring>
     </vdex:caption>
-    <vdex:description>
-      <vdex:langstring language="nl">Streefniveau 4S, is nog niet verder uitgewerkt</vdex:langstring>
-    </vdex:description>
+    <vdex:metadata>
+      <dc:source>http://purl.edustandaard.nl/begrippenkader/</dc:source>
+    </vdex:metadata>
+  </vdex:term>
+  <vdex:term orderSignificant="true" validIndex="true">
+    <vdex:termIdentifier>5eac0434-a6fc-4499-9710-3d6b800973a3</vdex:termIdentifier>
+    <vdex:caption>
+      <vdex:langstring language="nl">2F</vdex:langstring>
+    </vdex:caption>
     <vdex:metadata>
       <dc:source>http://purl.edustandaard.nl/begrippenkader/</dc:source>
     </vdex:metadata>
   </vdex:term>
   <vdex:relationship>
-    <vdex:sourceTerm vocabularyIdentifier="http://purl.edustandaard.nl/begrippenkader/">3401cf6e-82e4-404c-b216-b980ff407159</vdex:sourceTerm>
-    <vdex:targetTerm vocabularyIdentifier="http://purl.edustandaard.nl/begrippenkader/">2be1fbb4-d46f-44f8-9aff-d2bbf5108a18</vdex:targetTerm>
-    <vdex:relationshipType source="http://purl.edustandaard.nl/begrippenkader/">heeftBkNiveau</vdex:relationshipType>
-  </vdex:relationship>
-  <vdex:relationship>
-    <vdex:sourceTerm vocabularyIdentifier="http://purl.edustandaard.nl/begrippenkader/">3401cf6e-82e4-404c-b216-b980ff407159</vdex:sourceTerm>
-    <vdex:targetTerm vocabularyIdentifier="http://purl.edustandaard.nl/begrippenkader/">5eac0434-a6fc-4499-9710-3d6b800973a3</vdex:targetTerm>
-    <vdex:relationshipType source="http://purl.edustandaard.nl/begrippenkader/">heeftBkNiveau</vdex:relationshipType>
-  </vdex:relationship>
-  <vdex:relationship>
-    <vdex:sourceTerm vocabularyIdentifier="http://purl.edustandaard.nl/begrippenkader/">3401cf6e-82e4-404c-b216-b980ff407159</vdex:sourceTerm>
-    <vdex:targetTerm vocabularyIdentifier="http://purl.edustandaard.nl/begrippenkader/">5ec6d733-a3b2-46db-9d42-72b4be4f7750</vdex:targetTerm>
-    <vdex:relationshipType source="http://purl.edustandaard.nl/begrippenkader/">heeftBkNiveau</vdex:relationshipType>
-  </vdex:relationship>
-  <vdex:relationship>
-    <vdex:sourceTerm vocabularyIdentifier="http://purl.edustandaard.nl/begrippenkader/">3401cf6e-82e4-404c-b216-b980ff407159</vdex:sourceTerm>
-    <vdex:targetTerm vocabularyIdentifier="http://purl.edustandaard.nl/begrippenkader/">7bae4f16-ed94-4739-9d42-d0842dee7c90</vdex:targetTerm>
-    <vdex:relationshipType source="http://purl.edustandaard.nl/begrippenkader/">heeftBkNiveau</vdex:relationshipType>
-  </vdex:relationship>
-  <vdex:relationship>
-    <vdex:sourceTerm vocabularyIdentifier="http://purl.edustandaard.nl/begrippenkader/">3401cf6e-82e4-404c-b216-b980ff407159</vdex:sourceTerm>
-    <vdex:targetTerm vocabularyIdentifier="http://purl.edustandaard.nl/begrippenkader/">86d05d5a-8dfa-422b-820c-50019985426d</vdex:targetTerm>
-    <vdex:relationshipType source="http://purl.edustandaard.nl/begrippenkader/">heeftBkNiveau</vdex:relationshipType>
-  </vdex:relationship>
-  <vdex:relationship>
-    <vdex:sourceTerm vocabularyIdentifier="http://purl.edustandaard.nl/begrippenkader/">3401cf6e-82e4-404c-b216-b980ff407159</vdex:sourceTerm>
-    <vdex:targetTerm vocabularyIdentifier="http://purl.edustandaard.nl/begrippenkader/">d5f99b58-31be-4ffc-89f4-9d7c65526879</vdex:targetTerm>
-    <vdex:relationshipType source="http://purl.edustandaard.nl/begrippenkader/">heeftBkNiveau</vdex:relationshipType>
-  </vdex:relationship>
-  <vdex:relationship>
-    <vdex:sourceTerm vocabularyIdentifier="http://purl.edustandaard.nl/begrippenkader/">3401cf6e-82e4-404c-b216-b980ff407159</vdex:sourceTerm>
-    <vdex:targetTerm vocabularyIdentifier="http://purl.edustandaard.nl/begrippenkader/">f1d56c9e-373a-4051-9ce9-81a01b812de7</vdex:targetTerm>
-    <vdex:relationshipType source="http://purl.edustandaard.nl/begrippenkader/">heeftBkNiveau</vdex:relationshipType>
-  </vdex:relationship>
-  <vdex:relationship>
-    <vdex:sourceTerm vocabularyIdentifier="http://purl.edustandaard.nl/begrippenkader/">3401cf6e-82e4-404c-b216-b980ff407159</vdex:sourceTerm>
-    <vdex:targetTerm vocabularyIdentifier="http://purl.edustandaard.nl/begrippenkader/">fadc20aa-082e-4e80-8a83-830c4006f236</vdex:targetTerm>
-    <vdex:relationshipType source="http://purl.edustandaard.nl/begrippenkader/">heeftBkNiveau</vdex:relationshipType>
-  </vdex:relationship>
-  <vdex:relationship>
-    <vdex:sourceTerm vocabularyIdentifier="http://purl.edustandaard.nl/begrippenkader/">54f2b3ac-53fb-4d90-bc2b-13a339820185</vdex:sourceTerm>
-    <vdex:targetTerm vocabularyIdentifier="http://purl.edustandaard.nl/begrippenkader/">2be1fbb4-d46f-44f8-9aff-d2bbf5108a18</vdex:targetTerm>
-    <vdex:relationshipType source="http://purl.edustandaard.nl/begrippenkader/">isBkTypeVan</vdex:relationshipType>
-  </vdex:relationship>
-  <vdex:relationship>
-    <vdex:sourceTerm vocabularyIdentifier="http://purl.edustandaard.nl/begrippenkader/">54f2b3ac-53fb-4d90-bc2b-13a339820185</vdex:sourceTerm>
-    <vdex:targetTerm vocabularyIdentifier="http://purl.edustandaard.nl/begrippenkader/">5eac0434-a6fc-4499-9710-3d6b800973a3</vdex:targetTerm>
-    <vdex:relationshipType source="http://purl.edustandaard.nl/begrippenkader/">isBkTypeVan</vdex:relationshipType>
-  </vdex:relationship>
-  <vdex:relationship>
-    <vdex:sourceTerm vocabularyIdentifier="http://purl.edustandaard.nl/begrippenkader/">54f2b3ac-53fb-4d90-bc2b-13a339820185</vdex:sourceTerm>
-    <vdex:targetTerm vocabularyIdentifier="http://purl.edustandaard.nl/begrippenkader/">5ec6d733-a3b2-46db-9d42-72b4be4f7750</vdex:targetTerm>
-    <vdex:relationshipType source="http://purl.edustandaard.nl/begrippenkader/">isBkTypeVan</vdex:relationshipType>
-  </vdex:relationship>
-  <vdex:relationship>
-    <vdex:sourceTerm vocabularyIdentifier="http://purl.edustandaard.nl/begrippenkader/">54f2b3ac-53fb-4d90-bc2b-13a339820185</vdex:sourceTerm>
-    <vdex:targetTerm vocabularyIdentifier="http://purl.edustandaard.nl/begrippenkader/">7bae4f16-ed94-4739-9d42-d0842dee7c90</vdex:targetTerm>
-    <vdex:relationshipType source="http://purl.edustandaard.nl/begrippenkader/">isBkTypeVan</vdex:relationshipType>
-  </vdex:relationship>
-  <vdex:relationship>
     <vdex:sourceTerm vocabularyIdentifier="http://purl.edustandaard.nl/begrippenkader/">54f2b3ac-53fb-4d90-bc2b-13a339820185</vdex:sourceTerm>
     <vdex:targetTerm vocabularyIdentifier="http://purl.edustandaard.nl/begrippenkader/">86d05d5a-8dfa-422b-820c-50019985426d</vdex:targetTerm>
     <vdex:relationshipType source="http://purl.edustandaard.nl/begrippenkader/">isBkTypeVan</vdex:relationshipType>
@@ -169,6 +67,11 @@
   <vdex:relationship>
     <vdex:sourceTerm vocabularyIdentifier="http://purl.edustandaard.nl/begrippenkader/">54f2b3ac-53fb-4d90-bc2b-13a339820185</vdex:sourceTerm>
     <vdex:targetTerm vocabularyIdentifier="http://purl.edustandaard.nl/begrippenkader/">d5f99b58-31be-4ffc-89f4-9d7c65526879</vdex:targetTerm>
+    <vdex:relationshipType source="http://purl.edustandaard.nl/begrippenkader/">isBkTypeVan</vdex:relationshipType>
+  </vdex:relationship>
+  <vdex:relationship>
+    <vdex:sourceTerm vocabularyIdentifier="http://purl.edustandaard.nl/begrippenkader/">54f2b3ac-53fb-4d90-bc2b-13a339820185</vdex:sourceTerm>
+    <vdex:targetTerm vocabularyIdentifier="http://purl.edustandaard.nl/begrippenkader/">2be1fbb4-d46f-44f8-9aff-d2bbf5108a18</vdex:targetTerm>
     <vdex:relationshipType source="http://purl.edustandaard.nl/begrippenkader/">isBkTypeVan</vdex:relationshipType>
   </vdex:relationship>
   <vdex:relationship>
@@ -182,165 +85,14 @@
     <vdex:relationshipType source="http://purl.edustandaard.nl/begrippenkader/">isBkTypeVan</vdex:relationshipType>
   </vdex:relationship>
   <vdex:relationship>
-    <vdex:sourceTerm vocabularyIdentifier="http://purl.edustandaard.nl/begrippenkader/">b48fa351-4561-44c7-a071-ebfd6103eec3</vdex:sourceTerm>
-    <vdex:targetTerm vocabularyIdentifier="http://purl.edustandaard.nl/begrippenkader/">2be1fbb4-d46f-44f8-9aff-d2bbf5108a18</vdex:targetTerm>
-    <vdex:relationshipType source="http://purl.edustandaard.nl/begrippenkader/">heeftBkNiveau</vdex:relationshipType>
-  </vdex:relationship>
-  <vdex:relationship>
-    <vdex:sourceTerm vocabularyIdentifier="http://purl.edustandaard.nl/begrippenkader/">b48fa351-4561-44c7-a071-ebfd6103eec3</vdex:sourceTerm>
+    <vdex:sourceTerm vocabularyIdentifier="http://purl.edustandaard.nl/begrippenkader/">54f2b3ac-53fb-4d90-bc2b-13a339820185</vdex:sourceTerm>
     <vdex:targetTerm vocabularyIdentifier="http://purl.edustandaard.nl/begrippenkader/">5eac0434-a6fc-4499-9710-3d6b800973a3</vdex:targetTerm>
-    <vdex:relationshipType source="http://purl.edustandaard.nl/begrippenkader/">heeftBkNiveau</vdex:relationshipType>
-  </vdex:relationship>
-  <vdex:relationship>
-    <vdex:sourceTerm vocabularyIdentifier="http://purl.edustandaard.nl/begrippenkader/">b48fa351-4561-44c7-a071-ebfd6103eec3</vdex:sourceTerm>
-    <vdex:targetTerm vocabularyIdentifier="http://purl.edustandaard.nl/begrippenkader/">7bae4f16-ed94-4739-9d42-d0842dee7c90</vdex:targetTerm>
-    <vdex:relationshipType source="http://purl.edustandaard.nl/begrippenkader/">heeftBkNiveau</vdex:relationshipType>
-  </vdex:relationship>
-  <vdex:relationship>
-    <vdex:sourceTerm vocabularyIdentifier="http://purl.edustandaard.nl/begrippenkader/">b48fa351-4561-44c7-a071-ebfd6103eec3</vdex:sourceTerm>
-    <vdex:targetTerm vocabularyIdentifier="http://purl.edustandaard.nl/begrippenkader/">86d05d5a-8dfa-422b-820c-50019985426d</vdex:targetTerm>
-    <vdex:relationshipType source="http://purl.edustandaard.nl/begrippenkader/">heeftBkNiveau</vdex:relationshipType>
-  </vdex:relationship>
-  <vdex:relationship>
-    <vdex:sourceTerm vocabularyIdentifier="http://purl.edustandaard.nl/begrippenkader/">b48fa351-4561-44c7-a071-ebfd6103eec3</vdex:sourceTerm>
-    <vdex:targetTerm vocabularyIdentifier="http://purl.edustandaard.nl/begrippenkader/">d5f99b58-31be-4ffc-89f4-9d7c65526879</vdex:targetTerm>
-    <vdex:relationshipType source="http://purl.edustandaard.nl/begrippenkader/">heeftBkNiveau</vdex:relationshipType>
-  </vdex:relationship>
-  <vdex:relationship>
-    <vdex:sourceTerm vocabularyIdentifier="http://purl.edustandaard.nl/begrippenkader/">b48fa351-4561-44c7-a071-ebfd6103eec3</vdex:sourceTerm>
-    <vdex:targetTerm vocabularyIdentifier="http://purl.edustandaard.nl/begrippenkader/">f1d56c9e-373a-4051-9ce9-81a01b812de7</vdex:targetTerm>
-    <vdex:relationshipType source="http://purl.edustandaard.nl/begrippenkader/">heeftBkNiveau</vdex:relationshipType>
-  </vdex:relationship>
-  <vdex:relationship>
-    <vdex:sourceTerm vocabularyIdentifier="http://purl.edustandaard.nl/begrippenkader/">b48fa351-4561-44c7-a071-ebfd6103eec3</vdex:sourceTerm>
-    <vdex:targetTerm vocabularyIdentifier="http://purl.edustandaard.nl/begrippenkader/">fadc20aa-082e-4e80-8a83-830c4006f236</vdex:targetTerm>
-    <vdex:relationshipType source="http://purl.edustandaard.nl/begrippenkader/">heeftBkNiveau</vdex:relationshipType>
-  </vdex:relationship>
-  <vdex:relationship>
-    <vdex:sourceTerm vocabularyIdentifier="http://purl.edustandaard.nl/begrippenkader/">d5f99b58-31be-4ffc-89f4-9d7c65526879</vdex:sourceTerm>
-    <vdex:targetTerm vocabularyIdentifier="http://purl.edustandaard.nl/begrippenkader/">3401cf6e-82e4-404c-b216-b980ff407159</vdex:targetTerm>
-    <vdex:relationshipType source="http://purl.edustandaard.nl/begrippenkader/">isBkNiveauVan</vdex:relationshipType>
-  </vdex:relationship>
-  <vdex:relationship>
-    <vdex:sourceTerm vocabularyIdentifier="http://purl.edustandaard.nl/begrippenkader/">d5f99b58-31be-4ffc-89f4-9d7c65526879</vdex:sourceTerm>
-    <vdex:targetTerm vocabularyIdentifier="http://purl.edustandaard.nl/begrippenkader/">54f2b3ac-53fb-4d90-bc2b-13a339820185</vdex:targetTerm>
-    <vdex:relationshipType source="http://purl.edustandaard.nl/begrippenkader/">heeftBkType</vdex:relationshipType>
-  </vdex:relationship>
-  <vdex:relationship>
-    <vdex:sourceTerm vocabularyIdentifier="http://purl.edustandaard.nl/begrippenkader/">d5f99b58-31be-4ffc-89f4-9d7c65526879</vdex:sourceTerm>
-    <vdex:targetTerm vocabularyIdentifier="http://purl.edustandaard.nl/begrippenkader/">b48fa351-4561-44c7-a071-ebfd6103eec3</vdex:targetTerm>
-    <vdex:relationshipType source="http://purl.edustandaard.nl/begrippenkader/">isBkNiveauVan</vdex:relationshipType>
-  </vdex:relationship>
-  <vdex:relationship>
-    <vdex:sourceTerm vocabularyIdentifier="http://purl.edustandaard.nl/begrippenkader/">86d05d5a-8dfa-422b-820c-50019985426d</vdex:sourceTerm>
-    <vdex:targetTerm vocabularyIdentifier="http://purl.edustandaard.nl/begrippenkader/">3401cf6e-82e4-404c-b216-b980ff407159</vdex:targetTerm>
-    <vdex:relationshipType source="http://purl.edustandaard.nl/begrippenkader/">isBkNiveauVan</vdex:relationshipType>
-  </vdex:relationship>
-  <vdex:relationship>
-    <vdex:sourceTerm vocabularyIdentifier="http://purl.edustandaard.nl/begrippenkader/">86d05d5a-8dfa-422b-820c-50019985426d</vdex:sourceTerm>
-    <vdex:targetTerm vocabularyIdentifier="http://purl.edustandaard.nl/begrippenkader/">54f2b3ac-53fb-4d90-bc2b-13a339820185</vdex:targetTerm>
-    <vdex:relationshipType source="http://purl.edustandaard.nl/begrippenkader/">heeftBkType</vdex:relationshipType>
-  </vdex:relationship>
-  <vdex:relationship>
-    <vdex:sourceTerm vocabularyIdentifier="http://purl.edustandaard.nl/begrippenkader/">86d05d5a-8dfa-422b-820c-50019985426d</vdex:sourceTerm>
-    <vdex:targetTerm vocabularyIdentifier="http://purl.edustandaard.nl/begrippenkader/">b48fa351-4561-44c7-a071-ebfd6103eec3</vdex:targetTerm>
-    <vdex:relationshipType source="http://purl.edustandaard.nl/begrippenkader/">isBkNiveauVan</vdex:relationshipType>
-  </vdex:relationship>
-  <vdex:relationship>
-    <vdex:sourceTerm vocabularyIdentifier="http://purl.edustandaard.nl/begrippenkader/">5eac0434-a6fc-4499-9710-3d6b800973a3</vdex:sourceTerm>
-    <vdex:targetTerm vocabularyIdentifier="http://purl.edustandaard.nl/begrippenkader/">3401cf6e-82e4-404c-b216-b980ff407159</vdex:targetTerm>
-    <vdex:relationshipType source="http://purl.edustandaard.nl/begrippenkader/">isBkNiveauVan</vdex:relationshipType>
-  </vdex:relationship>
-  <vdex:relationship>
-    <vdex:sourceTerm vocabularyIdentifier="http://purl.edustandaard.nl/begrippenkader/">5eac0434-a6fc-4499-9710-3d6b800973a3</vdex:sourceTerm>
-    <vdex:targetTerm vocabularyIdentifier="http://purl.edustandaard.nl/begrippenkader/">54f2b3ac-53fb-4d90-bc2b-13a339820185</vdex:targetTerm>
-    <vdex:relationshipType source="http://purl.edustandaard.nl/begrippenkader/">heeftBkType</vdex:relationshipType>
-  </vdex:relationship>
-  <vdex:relationship>
-    <vdex:sourceTerm vocabularyIdentifier="http://purl.edustandaard.nl/begrippenkader/">5eac0434-a6fc-4499-9710-3d6b800973a3</vdex:sourceTerm>
-    <vdex:targetTerm vocabularyIdentifier="http://purl.edustandaard.nl/begrippenkader/">b48fa351-4561-44c7-a071-ebfd6103eec3</vdex:targetTerm>
-    <vdex:relationshipType source="http://purl.edustandaard.nl/begrippenkader/">isBkNiveauVan</vdex:relationshipType>
-  </vdex:relationship>
-  <vdex:relationship>
-    <vdex:sourceTerm vocabularyIdentifier="http://purl.edustandaard.nl/begrippenkader/">fadc20aa-082e-4e80-8a83-830c4006f236</vdex:sourceTerm>
-    <vdex:targetTerm vocabularyIdentifier="http://purl.edustandaard.nl/begrippenkader/">3401cf6e-82e4-404c-b216-b980ff407159</vdex:targetTerm>
-    <vdex:relationshipType source="http://purl.edustandaard.nl/begrippenkader/">isBkNiveauVan</vdex:relationshipType>
-  </vdex:relationship>
-  <vdex:relationship>
-    <vdex:sourceTerm vocabularyIdentifier="http://purl.edustandaard.nl/begrippenkader/">fadc20aa-082e-4e80-8a83-830c4006f236</vdex:sourceTerm>
-    <vdex:targetTerm vocabularyIdentifier="http://purl.edustandaard.nl/begrippenkader/">54f2b3ac-53fb-4d90-bc2b-13a339820185</vdex:targetTerm>
-    <vdex:relationshipType source="http://purl.edustandaard.nl/begrippenkader/">heeftBkType</vdex:relationshipType>
-  </vdex:relationship>
-  <vdex:relationship>
-    <vdex:sourceTerm vocabularyIdentifier="http://purl.edustandaard.nl/begrippenkader/">fadc20aa-082e-4e80-8a83-830c4006f236</vdex:sourceTerm>
-    <vdex:targetTerm vocabularyIdentifier="http://purl.edustandaard.nl/begrippenkader/">b48fa351-4561-44c7-a071-ebfd6103eec3</vdex:targetTerm>
-    <vdex:relationshipType source="http://purl.edustandaard.nl/begrippenkader/">isBkNiveauVan</vdex:relationshipType>
-  </vdex:relationship>
-  <vdex:relationship>
-    <vdex:sourceTerm vocabularyIdentifier="http://purl.edustandaard.nl/begrippenkader/">f1d56c9e-373a-4051-9ce9-81a01b812de7</vdex:sourceTerm>
-    <vdex:targetTerm vocabularyIdentifier="http://purl.edustandaard.nl/begrippenkader/">3401cf6e-82e4-404c-b216-b980ff407159</vdex:targetTerm>
-    <vdex:relationshipType source="http://purl.edustandaard.nl/begrippenkader/">isBkNiveauVan</vdex:relationshipType>
-  </vdex:relationship>
-  <vdex:relationship>
-    <vdex:sourceTerm vocabularyIdentifier="http://purl.edustandaard.nl/begrippenkader/">f1d56c9e-373a-4051-9ce9-81a01b812de7</vdex:sourceTerm>
-    <vdex:targetTerm vocabularyIdentifier="http://purl.edustandaard.nl/begrippenkader/">54f2b3ac-53fb-4d90-bc2b-13a339820185</vdex:targetTerm>
-    <vdex:relationshipType source="http://purl.edustandaard.nl/begrippenkader/">heeftBkType</vdex:relationshipType>
-  </vdex:relationship>
-  <vdex:relationship>
-    <vdex:sourceTerm vocabularyIdentifier="http://purl.edustandaard.nl/begrippenkader/">f1d56c9e-373a-4051-9ce9-81a01b812de7</vdex:sourceTerm>
-    <vdex:targetTerm vocabularyIdentifier="http://purl.edustandaard.nl/begrippenkader/">b48fa351-4561-44c7-a071-ebfd6103eec3</vdex:targetTerm>
-    <vdex:relationshipType source="http://purl.edustandaard.nl/begrippenkader/">isBkNiveauVan</vdex:relationshipType>
-  </vdex:relationship>
-  <vdex:relationship>
-    <vdex:sourceTerm vocabularyIdentifier="http://purl.edustandaard.nl/begrippenkader/">2be1fbb4-d46f-44f8-9aff-d2bbf5108a18</vdex:sourceTerm>
-    <vdex:targetTerm vocabularyIdentifier="http://purl.edustandaard.nl/begrippenkader/">3401cf6e-82e4-404c-b216-b980ff407159</vdex:targetTerm>
-    <vdex:relationshipType source="http://purl.edustandaard.nl/begrippenkader/">isBkNiveauVan</vdex:relationshipType>
-  </vdex:relationship>
-  <vdex:relationship>
-    <vdex:sourceTerm vocabularyIdentifier="http://purl.edustandaard.nl/begrippenkader/">2be1fbb4-d46f-44f8-9aff-d2bbf5108a18</vdex:sourceTerm>
-    <vdex:targetTerm vocabularyIdentifier="http://purl.edustandaard.nl/begrippenkader/">54f2b3ac-53fb-4d90-bc2b-13a339820185</vdex:targetTerm>
-    <vdex:relationshipType source="http://purl.edustandaard.nl/begrippenkader/">heeftBkType</vdex:relationshipType>
-  </vdex:relationship>
-  <vdex:relationship>
-    <vdex:sourceTerm vocabularyIdentifier="http://purl.edustandaard.nl/begrippenkader/">2be1fbb4-d46f-44f8-9aff-d2bbf5108a18</vdex:sourceTerm>
-    <vdex:targetTerm vocabularyIdentifier="http://purl.edustandaard.nl/begrippenkader/">b48fa351-4561-44c7-a071-ebfd6103eec3</vdex:targetTerm>
-    <vdex:relationshipType source="http://purl.edustandaard.nl/begrippenkader/">isBkNiveauVan</vdex:relationshipType>
-  </vdex:relationship>
-  <vdex:relationship>
-    <vdex:sourceTerm vocabularyIdentifier="http://purl.edustandaard.nl/begrippenkader/">5ec6d733-a3b2-46db-9d42-72b4be4f7750</vdex:sourceTerm>
-    <vdex:targetTerm vocabularyIdentifier="http://purl.edustandaard.nl/begrippenkader/">3401cf6e-82e4-404c-b216-b980ff407159</vdex:targetTerm>
-    <vdex:relationshipType source="http://purl.edustandaard.nl/begrippenkader/">isBkNiveauVan</vdex:relationshipType>
-  </vdex:relationship>
-  <vdex:relationship>
-    <vdex:sourceTerm vocabularyIdentifier="http://purl.edustandaard.nl/begrippenkader/">5ec6d733-a3b2-46db-9d42-72b4be4f7750</vdex:sourceTerm>
-    <vdex:targetTerm vocabularyIdentifier="http://purl.edustandaard.nl/begrippenkader/">54f2b3ac-53fb-4d90-bc2b-13a339820185</vdex:targetTerm>
-    <vdex:relationshipType source="http://purl.edustandaard.nl/begrippenkader/">heeftBkType</vdex:relationshipType>
-  </vdex:relationship>
-  <vdex:relationship>
-    <vdex:sourceTerm vocabularyIdentifier="http://purl.edustandaard.nl/begrippenkader/">7bae4f16-ed94-4739-9d42-d0842dee7c90</vdex:sourceTerm>
-    <vdex:targetTerm vocabularyIdentifier="http://purl.edustandaard.nl/begrippenkader/">3401cf6e-82e4-404c-b216-b980ff407159</vdex:targetTerm>
-    <vdex:relationshipType source="http://purl.edustandaard.nl/begrippenkader/">isBkNiveauVan</vdex:relationshipType>
-  </vdex:relationship>
-  <vdex:relationship>
-    <vdex:sourceTerm vocabularyIdentifier="http://purl.edustandaard.nl/begrippenkader/">7bae4f16-ed94-4739-9d42-d0842dee7c90</vdex:sourceTerm>
-    <vdex:targetTerm vocabularyIdentifier="http://purl.edustandaard.nl/begrippenkader/">54f2b3ac-53fb-4d90-bc2b-13a339820185</vdex:targetTerm>
-    <vdex:relationshipType source="http://purl.edustandaard.nl/begrippenkader/">heeftBkType</vdex:relationshipType>
-  </vdex:relationship>
-  <vdex:relationship>
-    <vdex:sourceTerm vocabularyIdentifier="http://purl.edustandaard.nl/begrippenkader/">7bae4f16-ed94-4739-9d42-d0842dee7c90</vdex:sourceTerm>
-    <vdex:targetTerm vocabularyIdentifier="http://purl.edustandaard.nl/begrippenkader/">b48fa351-4561-44c7-a071-ebfd6103eec3</vdex:targetTerm>
-    <vdex:relationshipType source="http://purl.edustandaard.nl/begrippenkader/">isBkNiveauVan</vdex:relationshipType>
+    <vdex:relationshipType source="http://purl.edustandaard.nl/begrippenkader/">isBkTypeVan</vdex:relationshipType>
   </vdex:relationship>
   <vdex:metadata>
-    <dc:description xml:lang="nl">Een subset uit het begrippenkader inclusief een subset van relaties met andere begrippen. Commentaar over deze vocabulaire indienen bij Bureau EduStandaard via info at edustandaard.nl Dit is een test vocabulaire die alleen ter informatie wordt gepubliceerd; d.w.z. dat gebruik geheel voor eigen risico is.
-            </dc:description>
-    <zt:thesNote label="usedIn">n.v.t.</zt:thesNote>
-    <zt:thesNote label="LOM-veld">n.v.t.</zt:thesNote>
-    <zt:thesNote label="Beheerstatus" vocab="knet-ps-0001" identifier="aangemeld">Test</zt:thesNote>
-    <zt:thesNote label="eerste publicatie in">2012</zt:thesNote>
+    <dc:description xml:lang="nl">Een subset uit het begrippenkader inclusief een subset van relaties met andere begrippen. Commentaar over deze vocabulaire indienen bij Bureau EduStandaard via info at edustandaard.nl.</dc:description>
     <zt:thesNote label="authority">EduStandaard</zt:thesNote>
     <dc:source>De verwijzing naar deze vocabulaire is: http://purl.edustandaard.nl/begrippenkader/</dc:source>
-    <zt:thesNote label="modified">2012-08-15</zt:thesNote>
-    <zt:thesNote label="historyNote">Wijzigingen worden nog niet vastgelegd omdat deze vocabulaire in status "Test" staat.</zt:thesNote>
+    <zt:thesNote label="modified">2014-08-12</zt:thesNote>
   </vdex:metadata>
 </vdex:vdex>
